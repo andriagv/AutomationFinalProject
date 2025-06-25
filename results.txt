@@ -1,0 +1,23 @@
+AUTOMATION PROJECT TEST RESULTS
+===============================
+
+API TESTS (REST-assured):
+- GET /posts - PASSED (Status: 200, Posts count: ≥100)
+- GET /posts/1 - PASSED (Status: 200, UserId: 1)
+- POST /posts - PASSED (Status: 201, Created successfully)
+- PUT /posts/1 - PASSED (Status: 200, Title updated)
+- DELETE /posts/1 - PASSED (Status: 200/204)
+
+UI TESTS (Selenium + Cucumber):
+- Login with valid credentials - PASSED
+- Login with invalid credentials - PASSED (Error message displayed)
+- Add product to cart - PASSED (Cart badge shows 1)
+- Logout functionality - PASSED (Redirected to login page)
+
+KNOWN ISSUES:
+- None identified during testing
+
+TEST EXECUTION DATE: 24-25.jun
+TOTAL TESTS: 9
+PASSED: 9
+FAILED: 0
