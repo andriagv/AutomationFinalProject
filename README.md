@@ -3,7 +3,7 @@
 ## English / ქართული
 ### ქართულისთვის დაბლა ჩასქროლეთ
 
----
+
 
 ## 🇬🇧 English
 
@@ -58,7 +58,7 @@ This command will:
 
 A consolidated summary of the test execution results can be found in the `results.txt` file within the project's root directory. All tests covered by the project are expected to pass.
 
------
+
 
 ## 🇬🇪 ქართული
 
@@ -96,38 +96,6 @@ A consolidated summary of the test execution results can be found in the `result
 
 პროექტი ისეა სტრუქტურირებული, რომ ნათლად გაიმიჯნოს API და UI ტესტები, ასევე დამხმარე კლასები:
 
-```
-AutomationFinalProject/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   └── test/
-│       ├── java/
-│       │   ├── api/                 # REST-assured API ტესტები
-│       │   │   ├── DeletePostsTest.java
-│       │   │   ├── GetPostsTest.java
-│       │   │   ├── PostPostsTest.java
-│       │   │   └── PutPostsTest.java
-│       │   ├── ui/
-│       │   │   ├── pages/           # Selenium Page Object Model კლასები
-│       │   │   │   ├── LoginPage.java
-│       │   │   │   └── ProductsPage.java
-│       │   │   ├── runners/         # Cucumber TestNG გაშვების კლასები
-│       │   │   │   └── TestRunner.java
-│       │   │   └── steps/           # Cucumber-ის Step Definitions
-│       │   │       ├── CartSteps.java
-│       │   │       ├── Hooks.java
-│       │   │       └── LoginSteps.java
-│       │   └── utils/               # დამხმარე კლასები (მაგ., DriverManager)
-│       │       └── DriverManager.java
-│       └── resources/
-│           └── features/            # Gherkin feature ფაილები
-│               ├── cart.feature
-│               └── login.feature
-├── pom.xml                        # Maven-ის პროექტის ობიექტის მოდელი
-├── results.txt                    # ტესტის შედეგების კონსოლიდირებული აღწერა
-└── README.md                      # პროექტის აღწერა
-```
 
 ### ტესტების გაშვება
 
