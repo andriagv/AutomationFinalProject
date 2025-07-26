@@ -39,41 +39,6 @@ This project consists of two main parts:
 
 The project is structured to clearly separate API and UI tests, as well as utility classes:
 
-```
-
-AutomationFinalProject/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   └── test/
-│       ├── java/
-│       │   ├── api/                 \# REST-assured API tests
-│       │   │   ├── DeletePostsTest.java
-│       │   │   ├── GetPostsTest.java
-│       │   │   ├── PostPostsTest.java
-│       │   │   └── PutPostsTest.java
-│       │   ├── ui/
-│       │   │   ├── pages/           \# Selenium Page Object Model classes
-│       │   │   │   ├── LoginPage.java
-│       │   │   │   └── ProductsPage.java
-│       │   │   ├── runners/         \# Cucumber TestNG runners
-│       │   │   │   └── TestRunner.java
-│       │   │   └── steps/           \# Cucumber step definitions
-│       │   │       ├── CartSteps.java
-│       │   │       ├── Hooks.java
-│       │   │       └── LoginSteps.java
-│       │   └── utils/               \# Utility classes (e.g., DriverManager)
-│       │       └── DriverManager.java
-│       └── resources/
-│           └── features/            \# Gherkin feature files
-│               ├── cart.feature
-│               └── login.feature
-├── pom.xml                        \# Maven Project Object Model
-├── results.txt                    \# Consolidated test results
-└── README.md                      \# Project description
-
-````
-
 ### How to Run the Tests
 
 To run all API and UI tests, navigate to the project's root directory (`AutomationFinalProject`) in your terminal and execute the following Maven command:
